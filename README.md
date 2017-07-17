@@ -4,8 +4,10 @@ It's a chatbot app, not finished yet. The project uses some existent files for t
 
 
 Settings Activity:
+
 ![SettingsScreen](http://i.imgur.com/D3GdaHp.jpg)
 
 
 Chat Activity:
+
 ![ChatScreen](http://i.imgur.com/xJrKf5E.jpg)
