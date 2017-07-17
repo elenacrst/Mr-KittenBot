@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/chatBlue"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_marginTop="@dimen/img2Top"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kitten_onboard2"
+        android:layout_width="@dimen/img2Width"
+        android:layout_height="@dimen/img2Height" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_marginTop="@dimen/tv4Top"
+        android:text="@string/welcome2"
+        android:textSize="@dimen/tv4Text"
+        android:textColor="@color/whiteText"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv5"
+        android:textColor="@color/whiteText"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tv5Top"
+        android:textSize="@dimen/tv5Text"
+        android:text="@string/instruction3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv6"
+        android:textColor="@color/whiteText"
+        android:layout_gravity="center"
+        android:textSize="@dimen/tv6Text"
+        android:text="@string/instruction4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

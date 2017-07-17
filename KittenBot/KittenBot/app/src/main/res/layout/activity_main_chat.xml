@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/baseRL"
+    tools:context="activeacademy.com.kittenbot.MainChatActivity">
+    <RelativeLayout
+        android:id="@+id/pisicotRL"
+        android:background="@color/chatBlue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:id="@+id/backArrowIV"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back2"
+            android:layout_width="@dimen/backWidth"
+            android:layout_height="@dimen/backHeight" />
+        <TextView
+            android:id="@+id/botNameTV"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/botName"
+            android:textColor="@color/whiteText"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/botNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/botNameHeight" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/botFaceCIV"
+            android:layout_marginRight="@dimen/botFaceRight"
+            android:layout_marginEnd="@dimen/botFaceRight"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/botface"
+            android:layout_width="@dimen/botFaceWidth"
+            android:layout_height="@dimen/botNameHeight" />
+    </RelativeLayout>
+
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/ursicotRL"
+    android:background="@color/greySpace"
+    android:layout_width="match_parent"
+    android:layout_above="@+id/editZoneRL"
+    android:layout_below="@+id/pisicotRL"
+
+    android:layout_height="wrap_content"
+    android:duplicateParentState="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messagesRV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/editZoneRL"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:id="@+id/spaceRL"
+            android:background="@color/greySpace"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spaceHeight"/>
+        <activeacademy.com.kittenbot.CustomEditText
+            android:layout_below="@id/spaceRL"
+            android:textSize="@dimen/messageText"
+            android:id="@+id/messageET"
+            android:hint="@string/type_hint"
+            android:layout_marginLeft="@dimen/messageLeft"
+            android:layout_marginStart="@dimen/messageLeft"
+            android:layout_width="@dimen/messageWid"
+            android:layout_height="@dimen/messageHeight" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/sendCIV"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:src="@drawable/sendimg"
+            android:layout_below="@+id/spaceRL"
+            android:layout_toRightOf="@+id/messageET"
+            android:layout_toEndOf="@+id/messageET"
+            android:layout_width="@dimen/sendWidth"
+            android:layout_height="@dimen/sendHeight" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
