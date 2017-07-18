@@ -11,3 +11,6 @@ Settings Activity:
 Chat Activity:
 
 ![ChatScreen](http://i.imgur.com/xJrKf5E.jpg)
+
+
+Covered chapters: layout, view pager, button, image view, text view, libraries, scrolling, adapters, list, view holder, fragment,  listeners, intents.
