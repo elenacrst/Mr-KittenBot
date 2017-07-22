@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/colorDialogBaseLL"
+    android:layout_height="wrap_content">
+         <TextView
+            android:textSize="30sp"
+             android:layout_gravity="center"
+            android:id="@+id/infoTV"
+            android:text="@string/infoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/blueIV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/chatBlue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/blueIV" />
+            <ImageView
+                android:id="@+id/greenIV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/chatGreen"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/greenIV" />
+            <ImageView
+                android:id="@+id/orangeIV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/chatOrange"
+                android:contentDescription="@string/orangeIV"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/purpleIV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/chatPurple"
+                android:contentDescription="@string/purpleIV"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+            <ImageView
+                android:id="@+id/redIV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:contentDescription="@string/redIV"
+                android:layout_marginTop="5dp"
+                android:background="@color/chatRed"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/save"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saveBtn" />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelBtn" />
+        </LinearLayout>
+
+</LinearLayout>
