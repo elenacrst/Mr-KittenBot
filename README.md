@@ -5,7 +5,11 @@ It's a chatbot app, not finished yet. The project uses some existent files for t
 
 Settings Activity:
 
-![SettingsScreen](http://i.imgur.com/D3GdaHp.jpg)
+![SettingsScreen](http://i.imgur.com/Gl3UF3S.png)
+
+Change app color pop-up:
+
+![](http://i.imgur.com/3Mrivrt.png)
 
 
 Chat Activity:
@@ -13,4 +17,4 @@ Chat Activity:
 ![ChatScreen](http://i.imgur.com/xJrKf5E.jpg)
 
 
-Covered chapters: layout, view pager, button, image view, text view, libraries, scrolling, adapters, list, view holder, fragment,  listeners, intents.
+Covered chapters: layout, view pager, button, image view, text view, libraries, scrolling, adapters, list, view holder, fragment,  listeners, intents, dialogs, shared preferences.
