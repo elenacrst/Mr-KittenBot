@@ -1,8 +1,0 @@
-url: 
-name:Kittenbot
-email:MrKittenBot@gmail.com
-gender:male
-botmaster:Dr Someone
-organization:SomeOrg
-version:0.0.1
-
