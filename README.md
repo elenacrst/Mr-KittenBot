@@ -14,7 +14,7 @@ Change app color pop-up:
 
 Chat Activity:
 
-![ChatScreen](http://i.imgur.com/xJrKf5E.jpg)
+![ChatScreen](http://i.imgur.com/bo20Zpu.png)
 
 
 Covered chapters: layout, view pager, button, image view, text view, libraries, scrolling, adapters, list, view holder, fragment,  listeners, intents, dialogs, shared preferences.
