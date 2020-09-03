@@ -1,20 +1,17 @@
 # Mr-KittenBot
-It's a chatbot app, not finished yet. The project uses some existent files for the AI which will be installed on user's device. There are 2 dependencies used to get answer for user's input. The Settings Screen is not done yet, there will appear a pop-up with details when the user clicked a setting.
-
+It's a chatbot app. 
+The project uses some existing files for the AI which will be installed on user's device.
 
 
 Settings Activity:
 
-![SettingsScreen](http://i.imgur.com/Gl3UF3S.png)
+![SettingsScreen](http://i.imgur.com/Gl3UF3S.png | width=200)
 
 Change app color pop-up:
 
-![](http://i.imgur.com/3Mrivrt.png)
+![](http://i.imgur.com/3Mrivrt.png | width=200)
 
 
 Chat Activity:
 
-![ChatScreen](http://i.imgur.com/bo20Zpu.png)
-
-
-Covered chapters: layout, view pager, button, image view, text view, libraries, scrolling, adapters, list, view holder, fragment,  listeners, intents, dialogs, shared preferences.
+![ChatScreen](http://i.imgur.com/bo20Zpu.png | width=200)
